@@ -1,0 +1,54 @@
+{
+    "nodes": [
+        {
+            "x": 0.0,
+            "y": 0.0,
+            "force": 0.0,
+            "fixed": true
+        },
+        {
+            "x": 1.0,
+            "y": 0.0,
+            "force": 3.0,
+            "fixed": false
+        },
+        {
+            "x": 3.0,
+            "y": 0.0,
+            "force": 1.0,
+            "fixed": false
+        },
+        {
+            "x": 4.0,
+            "y": 0.0,
+            "force": 0.0,
+            "fixed": true
+        }
+    ],
+    "rods": [
+        {
+            "E": 1.0,
+            "A": 3.0,
+            "L": 1.0,
+            "q_p": 0.0,
+            "start_node": 1,
+            "end_node": 2
+        },
+        {
+            "E": 1.0,
+            "A": 2.0,
+            "L": 2.0,
+            "q_p": 0.0,
+            "start_node": 2,
+            "end_node": 3
+        },
+        {
+            "E": 1.0,
+            "A": 1.0,
+            "L": 1.0,
+            "q_p": 0.0,
+            "start_node": 3,
+            "end_node": 4
+        }
+    ]
+}
